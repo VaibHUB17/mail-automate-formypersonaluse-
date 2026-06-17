@@ -71,6 +71,14 @@ Options:
 - `--dry-run` : prints messages instead of sending
 - `--html` : sends an HTML email body
 
+## Customization
+You can tailor the attachment name, subject, and email content to your preferences before sending:
+
+- Attachment: pass any file with `--resume path/to/your_resume.pdf` to attach a different resume.
+- Subject: override the default with `--subject "Your subject here"`.
+- Email body / templates: edit the message template in the code (search for the email body or template string in `mailer.py` or `main.py`), or replace it with your preferred HTML/text. Use placeholders from the Excel columns (for example `{Contact Person Name}` and `{Company Name}`) when building personalized messages.
+- Test first: always run with `--dry-run` to preview the final messages before actually sending.
+
 ## Logs
 All activity is appended to `logs.txt` with timestamps, recipient email, and status (success/fail/skipped). Use this file to audit runs.
 
