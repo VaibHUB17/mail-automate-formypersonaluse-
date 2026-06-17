@@ -5,6 +5,8 @@
 
 A small production-ready Python utility to read recipients from Excel and send personalized emails via Gmail SMTP with an attachment (resume). Designed for safe, repeatable runs with testing, dry-run, retries, randomized delays, and HTML email support.
 
+⚠️ This project was originally built for my personal job application workflow. If you plan to use it, customize the templates, configurations, and safeguards according to your requirements before sending emails.
+
 **Highlights**
 - Supports `--test` and `--prod` datasets.
 - Dry-run mode for safe previews.
