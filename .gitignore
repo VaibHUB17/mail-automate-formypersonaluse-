@@ -1,0 +1,18 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment files
+.env
+.env.*
+
+# Excel lists (sensitive recipient lists)
+testing.xlsx
+500 HR's Email ID.xlsx
+
+# Logs
+logs.txt
